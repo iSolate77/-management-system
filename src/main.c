@@ -89,7 +89,7 @@ void initMenu(struct User *u) {
 
 int main() {
   struct User u;
-  init_db("db.c");
+  init_db("data/atm.db");
 
   initMenu(&u);
   mainMenu(u);
